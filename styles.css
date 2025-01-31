@@ -1,0 +1,33 @@
+.profile-card {
+    width: 300px; 
+    margin: 50px auto; 
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #f8f8f8; 
+}
+
+.profile-picture {
+    width: 150px;
+    height: auto;
+    border-radius: 50%; 
+    margin-bottom: 10px;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    margin: 0 5px;
+}
+
+
+@media (max-width: 400px) {
+    .profile-card {
+        width: 90%; 
+    }
+}
+
